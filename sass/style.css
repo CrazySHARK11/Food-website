@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  outline: none;
+}
+
+/*==================== Global ========================*/
+.cont {
+  width: 100%;
+  background-color: aliceblue;
+  min-height: 700px;
+  margin-top: 20px;
+}
+
+h2 {
+  width: 100%;
+  min-height: 50px;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 span {
+  color: red;
+}
+
+/*==================== Global ========================*/
+/*==================== Header ========================*/
+header {
+  width: 100%;
+  position: absolute;
+}
+
+header, nav {
+  width: 100%;
+  height: 90px;
+}
+
+.wrap {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  width: 30%;
+  color: black;
+  font-family: 'poppins';
+  font-size: 34px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav .logo span {
+  color: red;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  list-style: none;
+}
+
+#menu a {
+  text-decoration: none;
+  color: red;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+#menu a:hover {
+  color: #000;
+}
+
+/*==================== Header ========================*/
+/*==================== Banner ========================*/
+.banner {
+  min-height: 100vh;
+}
+
+.ban-con {
+  width: 100%;
+  min-height: 608px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ban-con h1 {
+  font-size: 95px;
+  line-height: 128px;
+}
+
+.ban-con h1 span {
+  color: red;
+}
+
+.ban-con p {
+  font-size: 23px;
+  margin: 0px 0px 29px 0px;
+  color: black;
+}
+
+.ban-con a {
+  width: 170px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #030101;
+  height: 50px;
+  border: 2px solid #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.ban-con a:hover {
+  background-color: red;
+  color: #fff;
+  border-color: red;
+}
+
+img {
+  width: 650px;
+}
+
+/*==================== Banner ========================*/
+/*==================== About-us ========================*/
+.about-us {
+  background-color: transparent;
+  min-height: 700px;
+}
+
+.abouts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ab-con {
+  width: 47%;
+  line-height: 59px;
+  font-size: 19px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.ab-con p {
+  line-height: 50px;
+}
+
+.ab-con p i {
+  color: red;
+  margin-right: 10px;
+}
+
+.toast {
+  width: 608px;
+  position: relative;
+  top: 43px;
+}
+
+/*==================== About-us ========================*/
+/*==================== Services ========================*/
+.services {
+  background-color: transparent;
+}
+
+.serv-con {
+  width: 100%;
+  min-height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 19px;
+  justify-items: center;
+}
+
+.serv-con .meal-card {
+  width: 372px;
+  border-radius: 33px;
+  height: 452px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff0000;
+  -webkit-box-shadow: 0px -1px 12px 0px black, inset 1px 0px 3px 0px black;
+          box-shadow: 0px -1px 12px 0px black, inset 1px 0px 3px 0px black;
+}
+
+.serv-con .meal-card img {
+  width: 87%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 26px;
+}
+
+.serv-con .meal-card p {
+  width: 100%;
+  background-color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+  height: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 29px;
+  position: relative;
+  font-style: italic;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: -3px 1px red;
+  font-weight: 500;
+  top: 60px;
+}
+
+.serv-con .meal-card p span {
+  color: red;
+  text-shadow: none;
+}
+
+.stars {
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  top: -47px;
+}
+
+.stars i {
+  color: yellow;
+}
+
+.meal-card:hover.meal-card p {
+  top: 0;
+}
+
+.meal-card:hover .stars {
+  top: 0;
+}
+
+/*==================== Services ========================*/
+/*==================== Outlet ========================*/
+.outlet {
+  margin-top: 89px;
+}
+
+.out-h {
+  color: #000000;
+  margin-top: 20px;
+}
+
+.out-con {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 55px;
+}
+
+.shops {
+  width: 512px;
+  -webkit-box-shadow: 4px -3px #f00, 7px -6px #000, -2px 3px #f00, -6px 7px #000;
+          box-shadow: 4px -3px #f00, 7px -6px #000, -2px 3px #f00, -6px 7px #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/*==================== Outlet ========================*/
+/*==================== Contact ========================*/
+.contact {
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.cont-con {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  height: 500px;
+}
+
+form span {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form span label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 26px;
+}
+
+form span input {
+  width: 424px;
+  height: 51px;
+  border: 1px solid #00000057;
+  padding-left: 21px;
+}
+
+#submit {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 21px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.address {
+  width: 93%;
+  list-style: none;
+  min-height: 500px;
+}
+
+.address span {
+  margin-top: 30px;
+  display: block;
+}
+
+.address i {
+  color: #f00;
+  margin-right: 10px;
+}
+
+.address iframe {
+  width: 100%;
+  height: 317px;
+  margin-top: 19px;
+}
+
+/*==================== Contact ========================*/
+/*==================== Footer ========================*/
+footer {
+  width: 100%;
+  min-height: 219px;
+  background-color: #000;
+  margin-top: 20px;
+}
+
+.social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 108px;
+  border-bottom: 1px solid #fff;
+}
+
+.social i {
+  color: #Fff;
+  font-size: 39px;
+}
+
+.end {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*==================== Footer ========================*/
+/*# sourceMappingURL=style.css.map */

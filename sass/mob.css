@@ -1,0 +1,158 @@
+@media only screen and (max-width: 426px) {
+  .wrap {
+    width: 90%;
+  }
+  /******** Header ********/
+  #menu {
+    width: 100%;
+    height: calc(100vh - 90px);
+    position: fixed;
+    top: 90px;
+    left: 100vw;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    background-color: black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #menu a:hover {
+    color: #fff;
+  }
+  #menu-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    display: block;
+  }
+  #menu-btn::before, #menu-btn::after, #menu-btn span {
+    width: 100%;
+    height: 4px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    content: '';
+    border-radius: 20px;
+    background-color: #000;
+    display: block;
+  }
+  #menu-btn span {
+    margin: 8px 0px;
+  }
+  .is-active::before {
+    -webkit-transform: translate(0px, 11px) rotate(45deg);
+            transform: translate(0px, 11px) rotate(45deg);
+  }
+  .is-active span {
+    opacity: 0;
+  }
+  .is-active::after {
+    -webkit-transform: translate(0px, -13px) rotate(-45deg);
+            transform: translate(0px, -13px) rotate(-45deg);
+  }
+  .came {
+    left: 0 !important;
+  }
+  /******** Header ********/
+  /******** Banner ********/
+  .ban-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 633px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ban-con h1 {
+    font-size: 3rem;
+    line-height: 55px;
+  }
+  .ban-con p {
+    margin: 0;
+  }
+  .ban-con a {
+    margin: 10px 0px;
+  }
+  .ban-con img {
+    width: 287px;
+  }
+  .ban-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  /******** Banner ********/
+  /******** About ********/
+  .abouts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ab-con {
+    width: 100%;
+  }
+  .toast {
+    width: 284px;
+    position: static;
+  }
+  /******** About ********/
+  /******** sevice ********/
+  .serv-con {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .serv-con .meal-card {
+    width: 282px;
+  }
+  /******** sevice ********/
+  /******** outlet ********/
+  .out-con {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .shops {
+    width: 277px;
+  }
+  /******** outlet ********/
+  /******** Contact ********/
+  .cont-con {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .address {
+    width: 100%;
+  }
+  form span {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  form span input {
+    width: 88%;
+    padding-right: 3px;
+  }
+  /******** Contact ********/
+}
+/*# sourceMappingURL=mob.css.map */

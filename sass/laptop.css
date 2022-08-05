@@ -1,0 +1,105 @@
+@media only screen and (min-width: 769px) and (max-width: 1267px) {
+  .wrap {
+    width: 90%;
+  }
+  /** Header **/
+  #menu {
+    width: 500px;
+  }
+  /** Header **/
+  /** Banner **/
+  .ban-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1015px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ban-con .ban-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /** Banner **/
+  /** About **/
+  .abouts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ab-con {
+    width: 100%;
+  }
+  /** About **/
+  /******** Service ********/
+  .serv-con {
+    width: 708px;
+    margin: 0px auto;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .serv-con .meal-card {
+    width: 336px;
+  }
+  /******** Service ********/
+  /******** outlet ********/
+  .out-con {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .shops {
+    width: 601px;
+  }
+  /******** outlet ********/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1039px) {
+  /******** Contact ********/
+  .cont-con {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .address {
+    width: 100%;
+  }
+  form {
+    width: 673px;
+  }
+  form span {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  form span input {
+    width: 88%;
+    padding-right: 3px;
+  }
+  /******** Contact ********/
+}
+/*# sourceMappingURL=laptop.css.map */
